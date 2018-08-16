@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="wifi_direct_channels">
+        <item>Auto – device selects channel|0</item>
+        <item>Channel  1 – 2.412 GHz|1</item>
+        <item>Channel  2 – 2.417 GHz|2</item>
+        <item>Channel  3 – 2.422 GHz|3</item>
+        <item>Channel  4 – 2.427 GHz|4</item>
+        <item>Channel  5 – 2.432 GHz|5</item>
+        <item>Channel  6 – 2.437 GHz|6</item>
+        <item>Channel  7 – 2.442 GHz|7</item>
+        <item>Channel  8 – 2.447 GHz|8</item>
+        <item>Channel  9 – 2.452 GHz|9</item>
+        <item>Channel 10 – 2.457 GHz|10</item>
+        <item>Channel 11 – 2.462 GHz|11</item>
+        <!--
+        <item>5GHz, Channel 36</item>
+        <item>5GHz, Channel 40</item>
+        <item>5GHz, Channel 44</item>
+        <item>5GHz, Channel 48</item>
+        -->
+        <!--
+        <item>5GHz, Channel 149</item>
+        <item>5GHz, Channel 153</item>
+        <item>5GHz, Channel 157</item>
+        <item>5GHz, Channel 161</item>
+        -->
+    </string-array>
+    <color name="black">#000000</color>
+    <color name="bright_red">#A6040E</color>
+    <color name="bright_red_text">#ff0a19</color>
+    <color name="dark_red_background">#3F0206</color>
+    <color name="light_red_background">#790E15</color>
+    <color name="medium_red_background">#4e0106</color>
+    <color name="transparent_color">#00000000</color>
+    <color name="very_bright_red">#bf0510</color>
+    <color name="white">#FFFFFF</color>
+    <string name="VUFORIA_INIT_ERROR_DEVICE_NOT_SUPPORTED">初始化DCOM失败。此设备不支持.</string>
+    <string name="VUFORIA_INIT_ERROR_NO_CAMERA_ACCESS">初始化DCOM失败。相机不可访问</string>
+    <string name="VUFORIA_INIT_LICENSE_ERROR_CANCELED_KEY">此应用程序许可证密钥已被取消，可能不再使用。请获得新的许可证密钥.</string>
+    <string name="VUFORIA_INIT_LICENSE_ERROR_INVALID_KEY">使用的密钥无效。请确保你使用的是一个有效的vuforia APP的关键。.</string>
+    <string name="VUFORIA_INIT_LICENSE_ERROR_MISMATCH_KEY">vuforia应用密钥无效这个产品。请给一个有效的关键，通过登录到您的帐户在developer.vuforia.com在项目创建正确的产品类型的选择。.</string>
+    <string name="VUFORIA_INIT_LICENSE_ERROR_MISSING_KEY">vuforia APP的钥匙不见了。请给一个有效的关键，通过登录到您的帐户在developer.vuforia.com并创建一个新的工程</string>
+    <string name="VUFORIA_INIT_LICENSE_ERROR_NO_NETWORK_PERMANENT">没有可用的网络。请确保您已连接到互联网。</string>
+    <string name="VUFORIA_INIT_LICENSE_ERROR_NO_NETWORK_TRANSIENT">无法联系服务器。请稍后再试。.</string>
+    <string name="VUFORIA_INIT_LICENSE_ERROR_PRODUCT_TYPE_MISMATCH">vuforia应用密钥无效这个产品。请给一个有效的关键，通过登录到您的帐户在developer.vuforia.com在项目创建正确的产品类型的选择。</string>
+    <string name="VUFORIA_INIT_LICENSE_ERROR_UNKNOWN_ERROR">初始化失败vuforia</string>
+    <string name="actionlistenerfailure_busy">错误: 繁忙</string>
+    <string name="actionlistenerfailure_error">错误</string>
+    <string name="actionlistenerfailure_nop2p">wifidirect不支持</string>
+    <string name="actionlistenerfailure_nosevicerequests">错误：没有服务的要求</string>
+    <string name="actionlistenerfailure_nowifi">Wifi 未开启</string>
+    <string name="actionlistenerfailure_unknown">错误: 未知</string>
+    <string name="adafruit_imu_description">一个Adafruit IMU</string>
+    <string name="adafruit_imu_name">Adafruit IMU</string>
+    <string name="adafruit_imu_xmltag">AdafruitBNO055IMU</string>
+    <string name="app_name">RobotCore</string>
+    <string name="buttonNameCancel">取消</string>
+    <string name="buttonNameOK">完成</string>
+    <string name="configGivingUpOnCommand">在%3$d尝试后放弃命令%1$s(%2$d)</string>
+    <string name="configTypeAdafruitColorSensor">Adafruit 颜色传感器</string>
+    <string name="configTypeAnalogInput">模拟输入</string>
+    <string name="configTypeAnalogOutput">模拟输出</string>
+    <string name="configTypeColorSensor"></string>
+    <string name="configTypeContinuousRotationServo">连续旋转伺服</string>
+    <string name="configTypeDeviceInterfaceModule">设备接口模块</string>
+    <string name="configTypeDigitalDevice">数字器件</string>
+    <string name="configTypeGyro"></string>
+    <string name="configTypeHTAccelerometer">HT加速度计</string>
+    <string name="configTypeHTColorSensor">HT 颜色传感器</string>
+    <string name="configTypeHTCompass">HT罗盘</string>
+    <string name="configTypeHTGyro">HT 陀螺仪</string>
+    <string name="configTypeHTIrSeeker">HT IR寻求者</string>
+    <string name="configTypeHTLightSensor">HT 光传感器</string>
+    <string name="configTypeHTTouchSensorMultiplexer">HT 触摸传感器复用器</string>
+    <string name="configTypeI2cDevice">I2C 设备</string>
+    <string name="configTypeI2cDeviceSynch">I2C 设备（同步）</string>
+    <string name="configTypeIrSeekerV3">MR IR Seeker v3</string>
+    <string name="configTypeLED">LED</string>
+    <string name="configTypeLegacyModuleController">传统模块控制器</string>
+    <string name="configTypeLynxColorSensor">REV颜色/范围传感器</string>
+    <string name="configTypeLynxModule">扩展中心</string>
+    <string name="configTypeLynxUSBDevice">扩展中心门户</string>
+    <string name="configTypeMRColorSensor">MR色彩传感器</string>
+    <string name="configTypeMRGyro">MR Gyro</string>
+    <string name="configTypeMRTouchSensor">MR Touch Sensor</string>
+    <string name="configTypeMatrixController">Matrix Controller</string>
+    <string name="configTypeMotor">Motor</string>
+    <string name="configTypeMotorController">Motor Controller</string>
+    <string name="configTypeNXTTouchSensor">NXT Touch Sensor</string>
+    <string name="configTypeNXTUltrasonicSensor">NXT Ultrasonic Sensor</string>
+    <string name="configTypeNothing">Nothing</string>
+    <string name="configTypeOpticalDistanceSensor">MR Optical Distance Sensor</string>
+    <string name="configTypePulseWidthDevice">Pulse Width Device</string>
+    <string name="configTypeServo">Servo</string>
+    <string name="configTypeServoController">Servo Controller</string>
+    <string name="configTypeUnknown">[Unknown]</string>
+    <string name="connection_owner_default">NONE</string>
+    <string name="connection_owner_password_default">password</string>
+    <string name="counted_device_interface_module_name">Device Interface Module %d</string>
+    <string name="counted_imu_name">imu %d</string>
+    <string name="counted_legacy_module_name">Legacy Module %d</string>
+    <string name="counted_lynx_module_name">Expansion Hub %d</string>
+    <string name="counted_lynx_usb_device_name">Expansion Hub Portal %d</string>
+    <string name="counted_motor_controller_name">Motor Controller %d</string>
+    <string name="counted_servo_controller_name">Servo Controller %d</string>
+    <string name="defaultOpModeName">Stop Robot</string>
+    <string name="descriptionLynxEmbeddedModule">Embedded Expansion Hub</string>
+    <string name="deviceDisplayNameUnknownUSBDevice">unknown USB device [%s]</string>
+    <string name="device_name_format_ds">0000-%s-DS</string>
+    <string name="device_name_format_rc">0000-%s-RC</string>
+    <string name="dialogMessagePleaseWait">Please wait...</string>
+    <string name="displayNameMatrixMotorController">Matrix Motor Controller</string>
+    <string name="displayNameMatrixServoController">Matrix Servo Controller</string>
+    <string name="errorOpModeStuck">OpMode \'%1$s\' stuck in %2$s. Restarting robot controller app.</string>
+    <string name="idAppDriverStation">Driver Station</string>
+    <string name="idAppRobotController">Robot Controller</string>
+    <string name="incompatibleAppsError">Incompatible apps: %1$s=v%2$d vs %3$s=v%4$d</string>
+    <string name="lynxAnalogInputControllerDisplayName">Expansion Hub Analog Input Controller</string>
+    <string name="lynxDcMotorControllerDisplayName">Expansion Hub DC Motor Controller</string>
+    <string name="lynxDigitalChannelControllerDisplayName">Expansion Hub Digital Channel Controller</string>
+    <string name="lynxI2cDeviceSynchDisplayName">Expansion Hub I2C Device</string>
+    <string name="lynxModuleDisplayName">Expansion Hub</string>
+    <string name="lynxPwmOutputControllerDisplayName">Expansion Hub Pwm Controller</string>
+    <string name="lynxServoControllerDisplayName">Expansion Hub Servo Controller</string>
+    <string name="lynxUnavailableFWVersionString">unknown firmware</string>
+    <string name="lynxVoltageSensorDisplayName">Expansion Hub Voltage Sensor</string>
+    <string name="lynx_embedded_imu_description">an embedded IMU</string>
+    <string name="lynx_embedded_imu_name">REV Expansion Hub IMU</string>
+    <string name="lynx_embedded_imu_xmltag">LynxEmbeddedIMU</string>
+    <string name="moduleDisplayNameCDIM">Modern Robotics USB Core Device Interface Module</string>
+    <string name="moduleDisplayNameLegacyModule">Modern Robotics USB Legacy Module</string>
+    <string name="moduleDisplayNameLynxUsbDevice">REV Robotics USB Expansion Hub Portal</string>
+    <string name="moduleDisplayNameMotorController">Modern Robotics USB DC Motor Controller</string>
+    <string name="moduleDisplayNameServoController">Modern Robotics USB Servo Controller</string>
+    <string name="networkStatusActive">active</string>
+    <string name="networkStatusCreatedAPConnection">active on SSID: %s</string>
+    <string name="networkStatusEnabled">enabled</string>
+    <string name="networkStatusError">error</string>
+    <string name="networkStatusInactive">inactive</string>
+    <string name="networkStatusInternalError">internal error</string>
+    <string name="networkStatusUnknown">unknown</string>
+    <string name="noSerialNumber">USB serial number unknown</string>
+    <string name="nxtDcMotorControllerName">Hitechnic DC Motor Controller</string>
+    <string name="nxtServoControllerName">Hitechnic Servo Controller</string>
+    <string name="peerStatusConnected">connected</string>
+    <string name="peerStatusDisconnected">disconnected</string>
+    <string name="pref_autostarted_robot_controller">pref_autostarted_robot_controller</string>
+    <string name="pref_connection_owner_identity">pref_connection_owner_identity</string>
+    <string name="pref_connection_owner_password">pref_connection_owner_password</string>
+    <string name="pref_debug_driver_station_logs">pref_debug_driver_station_logs</string>
+    <string name="pref_device_name">pref_device_name</string>
+    <string name="pref_device_name_old">pref_device_name_old</string>
+    <string name="pref_device_name_rc">pref_device_name_rc</string>
+    <string name="pref_device_name_rc_display">pref_device_name_rc_display</string>
+    <string name="pref_device_name_tracking">pref_device_name_tracking</string>
+    <string name="pref_gamepad_user1_type_key">pref_gamepad_user1_type</string>
+    <string name="pref_gamepad_user2_type_key">pref_gamepad_user2_type</string>
+    <string name="pref_has_independent_phone_battery">pref_has_independent_phone_battery</string>
+    <string name="pref_has_independent_phone_battery_rc">pref_has_independent_phone_battery_rc</string>
+    <string name="pref_launch_advanced_rc_settings">pref_launch_advanced_rc_settings</string>
+    <string name="pref_launch_inspect_ds">pref_launch_inspect_ds</string>
+    <string name="pref_launch_inspect_rc">pref_launch_inspect_rc</string>
+    <string name="pref_launch_lynx_address_update">pref_launch_lynx_address_update</string>
+    <string name="pref_launch_lynx_firmware_update">pref_launch_lynx_firmware_update</string>
+    <string name="pref_launch_viewlogs">pref_launch_viewlogs</string>
+    <string name="pref_launch_wifi_channel_edit">pref_launch_wifi_channel_edit</string>
+    <string name="pref_launch_wifi_remembered_groups_edit">pref_launch_wifi_remembered_groups_edit</string>
+    <string name="pref_network_connection_type">pref_network_connection_type</string>
+    <string name="pref_pair_rc">pref_pair_rc</string>
+    <string name="pref_rc_connected">pref_rc_connected</string>
+    <string name="pref_sound_on_off">pref_sound_on_off</string>
+    <string name="pref_sound_on_off_rc">pref_sound_on_off_rc</string>
+    <string name="pref_wifip2p_channel">pref_wifip2p_channel</string>
+    <string name="pref_wifip2p_groupowner_connectedto">pref_wifip2p_groupowner_connectedto</string>
+    <string name="pref_wifip2p_groupowner_lastconnectedto">pref_wifip2p_groupowner_lastconnectedto</string>
+    <string name="pref_wifip2p_groupowner_map">pref_wifip2p_groupowner_map</string>
+    <string name="pref_wifip2p_remote_channel_change_works">pref_wifip2p_remote_channel_change_works</string>
+    <string name="prefcat_configure_ds">Driver Station Settings</string>
+    <string name="prefcat_configure_robot">Robot Controller Settings</string>
+    <string name="prefcat_gamepad">Gamepads</string>
+    <string name="prefcat_logging">Logging</string>
+    <string name="prefcat_wifi_config">Network Configuration</string>
+    <string name="prefcat_wifi_settings">Wifi Settings</string>
+    <string name="prefedit_change_wifi_channel">Change Wifi Channel</string>
+    <string name="prefedit_clear_remembered_groups_summary">Clears remembered Wifi Direct groups from the robot controller</string>
+    <string name="prefedit_debug_driver_station_logs">Log Internal Events</string>
+    <string name="prefedit_debug_driver_station_logs_summary">Record low-level internal events to the log. This may generate a large log volume.</string>
+    <string name="prefedit_device_name">Device Name</string>
+    <string name="prefedit_device_name_ds">Driver Station Name</string>
+    <string name="prefedit_device_name_rc">Robot Controller Name</string>
+    <string name="prefedit_device_name_summary">Change the name of this device</string>
+    <string name="prefedit_device_name_summary_ds">Change the name of the driver station</string>
+    <string name="prefedit_device_name_summary_rc">Change the name of the robot controller</string>
+    <string name="prefedit_edit_wifi_channel_summary">Changes the Wifi channel on which the robot controller operates</string>
+    <string name="prefedit_gamepad_user1_type">Gamepad #1 Type</string>
+    <string name="prefedit_gamepad_user2_type">Gamepad #2 Type</string>
+    <string name="prefedit_launch_inspect_ds">Inspect Driver Station</string>
+    <string name="prefedit_launch_inspect_ds_summary">Creates a self-inspection report for the driver station</string>
+    <string name="prefedit_launch_inspect_rc">Inspect Robot Controller</string>
+    <string name="prefedit_launch_inspect_rc_summary">Creates a self-inspection report for the robot controller</string>
+    <string name="prefedit_pair_rc">Connect with Robot Controller</string>
+    <string name="prefedit_pair_rc_summary">Change the robot controller this driver station is paired with</string>
+    <string name="prefedit_remembered_groups">Clear Wifi Direct Groups</string>
+    <string name="prefedit_sound_on_off">Sound</string>
+    <string name="prefedit_sound_on_off_summary">Turn app sounds on or off</string>
+    <string name="prefedit_sound_on_off_summary_rc">Turn robot controller app sounds on or off</string>
+    <string name="prefedit_view_logs">View Logs</string>
+    <string name="prefedit_view_logs_summary">Shows recently-logged activity of the robot controller.</string>
+    <string name="preferred_imu_name">imu</string>
+    <string name="progressPleaseWait">Please wait</string>
+    <string name="rev_core_hex_name">REV Robotics Core Hex Motor</string>
+    <string name="rev_core_hex_xmltag">RevRoboticsCoreHexMotor</string>
+    <string name="rev_distributor">REV Robotics</string>
+    <string name="rev_hd_hex_name">REV Robotics HD Hex Motor</string>
+    <string name="rev_hd_hex_xmltag">RevRoboticsHDHexMotor</string>
+    <string name="robotStateEmergencyStop">EMERGENCY STOP</string>
+    <string name="robotStateInit">initializing</string>
+    <string name="robotStateInternalError">internal error</string>
+    <string name="robotStateNotStarted">stopped</string>
+    <string name="robotStateRunning">running</string>
+    <string name="robotStateStopped">stopped</string>
+    <string name="robotStateUnknown">unknown</string>
+    <string name="robotStatusInternalError">internal error</string>
+    <string name="robotStatusNetworkTimedOut">network timed out</string>
+    <string name="robotStatusScanningUSB">scanning for USB devices</string>
+    <string name="robotStatusStartingRobot">starting robot</string>
+    <string name="robotStatusUnableToStartRobot">unable to start robot</string>
+    <string name="robotStatusUnknown">unknown</string>
+    <string name="robotStatusWaitingOnNetworkConnection">waiting for network to become active</string>
+    <string name="robotStatusWaitingOnWifi">waiting for Wifi to enable</string>
+    <string name="robotStatusWaitingOnWifiDirect">waiting for Wifi Direct to enable</string>
+    <string name="setWifiChannelFailure">Unable to change Wifi Direct channel to \'%s\'</string>
+    <string name="setWifiChannelSuccess">Changed Wifi Direct channel to \'%s\'</string>
+    <string name="toastDisconnectedFromWifiDirect">Successfully disconnected from WiFi Direct</string>
+    <string name="toastErrorDisconnectingFromWifiDirect">There was an error disconnecting from WiFi Direct</string>
+    <string name="toastOpModeStuck">OpMode stuck in %s. Restarting robot controller app.</string>
+    <string name="unknown_wifi_direct_channel">Unknown channel</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>
